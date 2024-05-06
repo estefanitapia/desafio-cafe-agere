@@ -1,0 +1,25 @@
+@import "../abstracts/variables.scss";
+
+body {
+    font-family: $fontmono;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    position: relative;
+    height: 55%;
+}
+
+.navbar__text {
+    text-decoration: none;
+    color: $quick-silver ;
+}
+
+
+
+
+
+

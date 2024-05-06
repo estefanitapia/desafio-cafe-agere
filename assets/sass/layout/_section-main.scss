@@ -1,0 +1,163 @@
+@import "../abstracts/variables.scss";
+
+// HERO Y PRIMERA SECCION 
+.hero-section {
+    position: relative;
+    width: 70%;
+}
+
+.hero__img {
+    width: 100%;
+}
+
+.information {
+    position: absolute;
+    width: 60%;
+    height: 25%;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    padding: 15px;
+    
+}
+
+.information__container {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+}
+
+.information__title {
+    font-size: 2.5rem;
+    padding-left: 15px;
+}
+
+.information__text {
+    width: 9rem;
+    height: 2rem;
+    font-size: 0.9rem;
+    padding-left: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+// SECCION TITULOS
+.section__titles {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 71%;
+}
+
+.section__titles--large {
+    margin: 6rem 6rem 0 6rem;
+    font-size: 4.5rem;
+    font-weight: 100;
+    
+}
+
+.section__titles--small {
+    font-family: "Roboto", sans-serif;
+    margin-top: 1rem;
+    margin-left: 6rem;
+    font-size: 1.5rem;
+    width: 40%;
+}
+
+.square__vanilla{
+    position: absolute;
+    background-color: $coral;
+    width: 8rem;
+    height: 8rem;
+    bottom: 0;
+}
+
+.square__flame {
+    position: absolute;
+    background-color: $flame;
+    width: 8rem;
+    height: 8rem;
+    left: -2rem;
+    bottom: 1.3rem;
+}
+
+.square__icon {
+    color: white;
+    position: absolute;
+    bottom: 2.5rem;
+    right: 2.5rem;
+    font-size: 3rem;
+}
+
+.second-section {
+    height: 35%;
+    position: relative;
+}
+
+.second-section__container {
+    width: 70%;
+    padding: 3% 3%;
+    position: relative;
+}
+
+.second-section__text {
+    width: 35%;
+    height: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    
+    & h3 {
+        font-size: 1.5rem;
+        letter-spacing: 0.2;
+        padding-bottom: 1rem;
+    }
+    & p {
+        font-family: "Roboto", sans-serif;
+        font-size: medium;
+        font-weight: 400;
+    }
+}
+
+// SEGUNDA SECCION
+.second-section__box--blue {
+    position: absolute;
+    background-color: $blue-frances;
+    width: 50%;
+    height: 100%;
+    top:0;
+    right: 0;
+}
+
+.second-section--img-map {
+    position: absolute;
+    object-fit: cover;
+    width: 50%;
+    height: 100%;
+    top: 2rem;
+    right: 10%;
+}
+
+.second-section--grains {
+    object-fit: cover;
+    z-index: 1;
+    position: absolute;
+    width: 9%;
+    height: 70%;
+    top: 0;
+    left: 94%;
+}
+
+.second-section__img--2 {
+    position: absolute;
+    width: 30%;
+    height: 32vh;
+    top: 0;
+    right: 0;
+}
+
+.second-section--img2 {
+    width: 100%;
+    height: 100%;
+}

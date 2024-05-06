@@ -1,0 +1,38 @@
+@import "../abstracts/variables.scss";
+
+.navbar__buttons {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 41rem;
+    margin-top: 1.5rem;
+}
+
+.navbar__buttons--login {
+    font-family: $fontmono;
+    background-color: $white ;
+    color: $black;
+    border: 0.1rem solid $outer-space ;
+    height: 2rem;
+    width: 8rem;
+    
+    &:hover{  
+        background-color: $white ;
+        color: $quick-silver ;
+        border: 0.1rem solid $quick-silver ;
+    }
+}
+
+.navbar__buttons--register {
+    font-family: $fontmono;
+    background-color: $shiny;
+    color: $isabelline;
+    border: 2px solid $shiny;
+    height: 2rem;
+    width: 8rem;
+
+    &:hover{  
+        background-color: $turquoise ;
+        color: $outer-space ;
+        border: 0.1rem solid $turquoise ;
+    }
+}
